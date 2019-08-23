@@ -216,20 +216,31 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (max-device-width: 980px) {
   .container{ 
-    max-width: 480px;
-  }
-
-  #logo{
-    width: 150px;
-  height: 60px;
-  font-size: 16px;
-  }
-
- .nav{
-    max-width: 480px;
+    max-width: 800px;
   }
 }
 
+@media screen and (max-device-width: 768px) {
 
+}
+
+
+@media screen and (max-device-width: 640px) {
+
+    .container{ 
+        max-width: 480px;
+      }
+    
+      #logo{
+        width: 150px;
+      height: 60px;
+      font-size: 16px;
+      }
+    
+     .nav{
+        max-width: 480px;
+      }
+
+}
